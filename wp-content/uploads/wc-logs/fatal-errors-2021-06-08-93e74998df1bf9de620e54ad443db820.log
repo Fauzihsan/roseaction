@@ -1,0 +1,36 @@
+2021-06-08T14:30:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded di D:\xampp\htdocs\roseaction\wp-includes\Requests\Transport\cURL.php pada baris 463
+
+2021-06-08T14:36:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded di D:\xampp\htdocs\roseaction\wp-includes\class-wp-image-editor-gd.php pada baris 198
+
+2021-06-08T14:37:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\roseaction\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\roseaction\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\roseaction\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\roseaction\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 D:\xampp\htdocs\roseaction\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\roseaction\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(11, 'WP Cron')
+#5 D:\xampp\htdocs\roseaction\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\roseaction\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\roseaction\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\roseaction\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\roseaction\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown di D:\xampp\htdocs\roseaction\wp-includes\class-wp-hook.php pada baris 292
+
+2021-06-08T14:40:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded di D:\xampp\htdocs\roseaction\wp-includes\class-wp-image-editor.php pada baris 493
+
+2021-06-08T14:42:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\roseaction\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\roseaction\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\roseaction\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\roseaction\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 D:\xampp\htdocs\roseaction\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\roseaction\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(12, 'WP Cron')
+#5 D:\xampp\htdocs\roseaction\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\roseaction\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\roseaction\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\roseaction\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\roseaction\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown di D:\xampp\htdocs\roseaction\wp-includes\class-wp-hook.php pada baris 292
+
